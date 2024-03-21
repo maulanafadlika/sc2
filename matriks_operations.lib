@@ -1,0 +1,9 @@
+#ifndef MATRIX_OPERATIONS_H
+#define MATRIX_OPERATIONS_H
+
+void tambahMatriks(int matriksPertama[][10], int matriksKedua[][10], int hasil[][10], int baris, int kolom);
+void kurangiMatriks(int matriksPertama[][10], int matriksKedua[][10], int hasil[][10], int baris, int kolom);
+void transposeMatriks(int matriks[][10], int transpose[][10], int baris, int kolom);
+void tampilkanMatriks(int matriks[][10], int baris, int kolom);
+
+#endif /* MATRIX_OPERATIONS_H */
